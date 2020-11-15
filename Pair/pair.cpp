@@ -24,6 +24,7 @@ class CodimentDecorator : public Beverage {
 
 class DarkRoast : public Beverage {
 private:
+	int size;
 	Beverage* beverage;
 public:
 	DarkRoast(int size);
